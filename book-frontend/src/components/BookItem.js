@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 
 const BookItem = (props) => {
   const { id, title, author } = props.book;
-
   return (
     <>
       <Card>
@@ -19,5 +18,4 @@ const BookItem = (props) => {
     </>
   );
 };
-
 export default BookItem;

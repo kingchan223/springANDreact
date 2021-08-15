@@ -5,10 +5,9 @@ import Header from './components/Header';
 import Home from './pages/book/Home';
 import SaveForm from './pages/book/SaveForm';
 import Detail from './pages/book/Detail';
-import Update from './pages/book/Update';
+import Update from './pages/book/UpdateForm';
 import LoginForm from './pages/user/LoginForm';
 import JoinForm from './pages/user/JoinForm';
-import Footer from './components/Footer';
 
 function App() {
   return (
@@ -25,5 +24,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
